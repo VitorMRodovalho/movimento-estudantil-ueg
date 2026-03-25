@@ -1,0 +1,42 @@
+<script language="javascript" type="text/javascript">
+	 /**
+	  * Submit the admin form
+	  */
+	 function submitform(pressbutton){
+		 document.adminForm.task.value=pressbutton;
+		 try {
+			 document.adminForm.onsubmit();
+		 }
+		 catch(e){}
+		 document.adminForm.submit();
+	 }
+	 function submitbutton(pressbutton) {
+		var form = document.adminForm;
+  	        if (pressbutton == 'reedit') {
+				form.action = 'index.php';
+			    submitform( pressbutton );
+			    return;
+		    }
+			submitform( pressbutton );
+	}
+</script>
+<br />
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="contentpane">
+	  <tr>
+	    <td class="contentheading" width="100%">{mxtlang=_JL_SAVEOREDIT}</td>
+	  </tr>
+      <tr>
+	    <td>
+<form action="index2.php" method="POST" name="adminForm" enctype="multipart/form-data">
+
+{mxtvalue=hiddenvalues}
+
+  <input type="hidden" name="option" value="com_jobline" />
+  <input type="hidden" name="Itemid" value="{mxtvalue=Itemid}" />
+  <input type="hidden" name="task" value="" />
+  <input type="button" name="savebtn" class="button" value="{mxtlang=_JL_SAVE_JOB}" onclick="submitbutton( 'save' );" />
+  <input type="button" name="editbtn" class="button" value="{mxtlang=_JL_EDIT_JOB}" onclick="submitbutton( 'reedit' );" />
+</form>
+        </td>
+      </tr>
+    </table>

@@ -1,0 +1,49 @@
+<style type="text/css">
+a.jl_functionlink {
+	font-size: 130%;
+	font-weight: bolder;
+}
+</style>
+<table width="100%" cellpadding="4" cellspacing="0" border="0" align="center" class="contentpane">
+  <tr>
+    <td><span class="contentheading">{mxtvalue=title}</span></td>
+  </tr>
+  <tr>
+    <td valign="top" class="contentdescription">
+      <p>{mxtvalue=description}</p>
+	<p>
+           {mxtshowif=searchlinkempty}{mxtvalue=searchlinkempty}{/mxtshowif} 
+           {mxtshowif=postjoblink} - <a class='jl_functionlink' href='{mxtvalue=postjoblink}'>{mxtvalue=postjob}</a>{/mxtshowif}
+           {mxtshowif=config_mailfromaddress} - <a class="jl_functionlink" href="mailto:{mxtvalue=config_mailfromaddress}?Subject=Submit CV">{mxtlang=_JL_SUBMITYOURCV}</a>{/mxtshowif}
+        </p>
+    </td>
+  </tr>
+  <tr>
+    <td align="right">{mxtlang=_PN_DISPLAY_NR}&nbsp;{mxtvalue=pagenavlimitbox}</td>
+  </tr>
+  <tr>
+    <td>
+	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="5%" class="sectiontableheader">{mxtlang=_JL_JOBREFERENCE}&nbsp;</td>
+          <td width="15%" class="sectiontableheader">{mxtlang=_JL_DATE_POSTED}</td>
+          <td width="50%" class="sectiontableheader">{mxtvalue=heading_jobtitle}</td>
+          <td width="20%" class="sectiontableheader">{mxtlang=_JL_JOBLOCATION}</td>
+          <td width="10%" class="sectiontableheader">{mxtlang=_JL_JOBDURATION}</td>
+        </tr>
+{mxtvalue=itemlist}
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" class="sectiontableheader">{mxtvalue=pagenavpageslinks}</td>
+  </tr>
+  <tr>
+    <td align="right">{mxtvalue=pagenavpagescounter}</td>
+  </tr>
+  <tr>
+    <td valign="top" class="contentdescription">
+      {mxtvalue=searchlink}
+    </td>
+  </tr>
+</table>

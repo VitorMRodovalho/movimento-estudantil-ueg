@@ -1,0 +1,64 @@
+  <form action="index2.php" method="POST" name="adminForm" enctype="multipart/form-data">
+    <input type="hidden" name="id" value="{mxtvalue=id}" />
+    <input type="hidden" name="option" value="{mxtvalue=option}" />
+    <input type="hidden" name="Itemid" value="{mxtvalue=Itemid}" />
+	<input type="hidden" name="task" value="send" />
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="contentpane">
+	  <tr>
+	    <td class="contentheading" width="100%" colspan="2">{mxtlang=_JL_APPLYFORJOB}: {mxtvalue=title}</td>
+	  </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_FIRSTNAME}</b></td>
+		<td><input type="text" name="firstname" class="inputbox" size="40" value="" /></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_LASTNAME}</b></td>
+		<td><input type="text" name="lastname" class="inputbox" size="40" value="" /></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_ADDRESS1}</b></td>
+		<td><input type="text" name="address1" class="inputbox" size="40" value="" /></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_ADDRESS2}</b></td>
+		<td><input type="text" name="address2" class="inputbox" size="40" value="" /></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_CITY}</b></td>
+		<td><input type="text" name="city" class="inputbox" size="40" value="" /></td>
+      </tr>
+{mxtshowif=config_useusstate}
+      <tr>
+        <td><b>{mxtlang=_JL_STATE}</b></td>
+		<td>{mxtvalue=usstates}</td>
+      </tr>
+{/mxtshowif}
+      <tr>
+        <td><b>{mxtlang=_JL_ZIPCODE}</b></td>
+		<td><input type="text" name="zipcode" class="inputbox" size="40" value="" /></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_DAYTELEPHONE}</b></td>
+		<td><input type="text" name="daytelephone" class="inputbox" size="40" value="" /></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_EVENINGTELEPHONE}</b></td>
+		<td><input type="text" name="eveningtelephone" class="inputbox" size="40" value="" /></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_APPLICANTEMAIL}</b></td>
+		<td><input type="text" name="email" class="inputbox" size="40" value="" /></td>
+      </tr>
+      <tr>
+        <td valign="top"><b>{mxtlang=_JL_COVER_LETTER}</b></td>
+		<td><textarea class="inputbox" name="coverletter" id="coverletter" cols="50" rows="10"></textarea></td>
+      </tr>
+      <tr>
+        <td valign="top"><b>{mxtlang=_JL_RESUME}</b></td>
+		<td><textarea class="inputbox" name="resume" id="resume" cols="50" rows="10"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="submit" name="sendbtn" class="button" value="{mxtlang=_JL_SEND_APPLICATION}" /></td>
+      </tr>
+    </table>
+  </form>

@@ -1,0 +1,22 @@
+Professor estou mandado em um zip:
+
+    * chamados_certificado_1_minicurso.tex
+    * chamados_certificado_2_minicurso.tex
+    * chamados_certificado_ministrantes_(palestras_e_minicursos).tex
+    * chamados_certificado_organizacao.tex
+    * chamados_certificado_patrocinadores.tex
+    * Medida do Papel do Certificado.txt
+    * 4SemaEngC_Dimensoes_Certificado.pdf
+
+Verificar o dos ministrantes pq falta alguns campos, como o nome do cara que substitui a Marilei, o cara de Furna(pai do rubinho), o cara da palestra Empreedorismo da Eternit, e tmb o nome dele para Palestra e o tema da palestra,
+Completar todos campos do tex patrocinadores
+
+Os minicursos assistidos pelo pessoal da organização ainda nao foram incerido, entao este fica para depois, pois nao consegui falar com estes.. e tmb para ficar mais organizado.
+
+lembrar de aumentar a carga horaria no certificado de quem fez 2 minicursos. e calcular a carga horaria das palestras lembrando que adicionou da Eternit.
+
+-- 
+__________________________________________
+Vitor Maia Rodovalho -  (62) 8439-1091 / Vitorodovalho@gmail.com (mensegger)
+GR InfoArte - Gustavo Godoi & Vitor Rodovalho
+Desenvolvimento de Artes Gráficas e Vetoriais, Criação e Manutenção de HomePages 

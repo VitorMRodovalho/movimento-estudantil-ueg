@@ -1,0 +1,134 @@
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="contentpane">
+	  <tr>
+	    <td class="contentheading" width="100%" colspan="2">{mxtvalue=heading}<br /></td>
+	  </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+      <tr>
+        <td width="10%"><b>{mxtlang=_JL_JOBREFERENCE}</b></td>
+		<td>{mxtvalue=reference}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+      <tr>
+        <td width="20%"><b>{mxtlang=_JL_JOBTYPE}</b></td>
+		<td>{mxtvalue=jobtypestring}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_JOBLOCATION}</b></td>
+		<td>{mxtvalue=location}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+{mxtshowif=attribs_Start Date}
+      <tr>
+        <td><b>{mxtlang=_JL_START_DATE}</b></td>
+		<td>{mxtvalue=attribs_Start Date}</td>
+      </tr>
+{/mxtshowif}
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+      <tr>
+        <td valign="top"><b>{mxtlang=_JL_COMPANYINFO}</b></td>
+		<td>
+          {mxtvalue=company}<br />
+          {mxtvalue=address1}<br />
+		  {mxtshowif=address2}{mxtvalue=address2}<br />{/mxtshowif}
+		  {mxtvalue=city},
+		  {mxtshowif=companyurl}
+            {mxtlang=_JL_WEBSITE}: <a href='{mxtvalue=companyurl}' target='_blank'>{mxtvalue=companyurl}</a><br />
+          {/mxtshowif}
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+      <tr>
+        <td valign="top"><b>{mxtlang=_JL_DESCRIPTION}</b></td>
+		<td>{mxtvalue=description}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+{mxtshowif=qualifications}
+      <tr>
+        <td valign="top"><b>{mxtlang=_JL_QUALIFICATIONS}</b></td>
+		<td>{mxtvalue=qualifications}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+{/mxtshowif}
+{mxtshowif=showcomp}
+      <tr>
+        <td><b>{mxtlang=_JL_COMPENSATION}</b></td>
+		<td>{mxtvalue=compensation}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+{/mxtshowif}
+{mxtshowif=attribs_Number of Openings}
+      <tr>
+        <td><b>Number of Openings</b></td>
+		<td>{mxtvalue=attribs_Number of Openings}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+{/mxtshowif}
+{mxtshowif=attribs_Population}
+      <tr>
+        <td><b>Population</b></td>
+		<td>{mxtvalue=attribs_Population}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+{/mxtshowif}
+{mxtshowif=attribs_Highest finished education}
+      <tr>
+        <td><b>Highest finished education</b></td>
+		<td>{mxtvalue=attribs_Highest finished education}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+{/mxtshowif}
+{mxtshowif=showcontact}
+      <tr>
+        <td><b>{mxtlang=_JL_CONTACTINFO}</b></td>
+		<td>
+          {mxtvalue=contactname}<br />
+		  {mxtvalue=contactphone_view}
+		  {mxtvalue=contactemail_view}
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+{/mxtshowif}
+{mxtshowif=showtype_view}
+      <tr> 
+        <td colspan="2" align="center"><br />
+		{mxtvalue=applybutton}
+		   </td>
+      </tr>
+      <tr>
+        <td colspan="2" height="10"></td>
+      </tr>
+      <tr> 
+        <td colspan="2" align="center"><a href="javascript:window.history.go(-1);">{mxtlang=_BACK}</a></td>
+      </tr>
+{/mxtshowif}
+	</table>

@@ -1,0 +1,6 @@
+Dimensoes do Papel
+
+Largura:		300mm
+Altura:			213mm
+Margem Esquerda:	087mm
+TopMarge:		085mm

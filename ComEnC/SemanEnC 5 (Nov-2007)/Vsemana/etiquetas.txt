@@ -1,0 +1,151 @@
+nome,rg,minicurso
+
+Abner Jardim,  5221387 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Adriano Honorato Tosta,  5010327 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Alexander Ricardo do A Lopes,  4772449 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Andre Luis Rodrigues,  4949649 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Andressa Rocha Basilio Belo,  48443556 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Andreyve Vieira Melo,  4613431 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Brandina Fatima de Castro Andrade,  234540 SSP-GO,  MONTAGEM DE TELHADOS
+
+Bruno Vinicius Oliveira,  4970946 SSP-GO,  MONTAGEM DE TELHADOS
+
+Carmem Lucia Soares de Souza,  3301191 SSP-GO,  MONTAGEM DE TELHADOS
+
+Danillo Augusto de Souza Dunk,  1267913 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Dayana Alvarenga De Souza,  4280161 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Diego Carvalho Da Silveira,   SSP-AC,  MONTAGEM DE TELHADOS
+
+Eduardo Di Guimaraes de Castro,  4832206 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Eduardo Henrique da Rocha Pereira,  5246583 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Enio Ribeiro Junior,  4009582 SSP-GO,  MONTAGEM DE TELHADOS
+
+Estevao Toledo Silva Pereira,  4971843 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Fabiane Pires da Silva,  4877223 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Fabio Pires da Silva,  4878540 SSP-GO,  MONTAGEM DE TELHADOS
+
+Fabricio Candido Lobo,  4389664 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Fellipe Porto Nogueira de Faria,  12880580 SSP-MG,  MONTAGEM DE TELHADOS
+
+Fernanda de Oliveira Barbosa,  5042577 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Gabriel Assunçao Martins,  530002 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Henrique Fonseca Correia de Oliveira,  4822307 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Hudson Thiago de Oliveira,  4326277 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Lana Laryssa de Faria,  4380206 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Leonard Yoshiro Takeda,  4763353 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Liana Carnielo,  4341699 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Liana de Lucca Jardins Borges,  1851114 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Ligia Cardoso Vieira,  4474060 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Livian Umbelina Naves Borges,  5017914 SSP-GO,  MONTAGEM DE TELHADOS
+
+Lucas Silva Fonseca,  415848 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Luciano Machado Castro,  4845997 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Ludy Carrijo Soares,  4308072 SSP-GO,  MONTAGEM DE TELHADOS
+
+Marcel Willian Reis Sales,   SSP-AC,  MONTAGEM DE TELHADOS
+
+Marcelo Henrique Basilio,  4660482 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Maria Luisa Gomes,  1264493 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Mariane Brito Costa,  4779362 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Nicolina Bollella,  7126231 SSP-GO,  MONTAGEM DE TELHADOS
+
+Nilo Flavio Rosa Campos Junior,  4541738 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Paulo Henrique Rosa Santos,  5221201 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Priscilla Euqueres,  4308862 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Rafael Barbosa Caetano,  4655147 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Rafael Gonçalves Fagundes,  5020599 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Rafael Moraes da Silva,  5015016 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Rafaela Paula de Castro Vargas,  4832115 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Rannier Ricardo Lisboa,  5035203 SSP-GO,  MONTAGEM DE TELHADOS
+
+Raphael Kratka Lins Rocha,  4493283 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Ravy Delatore Costa,  4984854 SSP-GO,  MONTAGEM DE TELHADOS
+
+Reny Gleyser Nogueira da Silva,  4367695 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Roberto Gonçalves Freire,  852000 SSP-GO,  MONTAGEM DE TELHADOS
+
+Rodolfo Murillo,  4793749 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Rodrigo Rodrigues Toledo,  4500645 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Rodrigo Teixeira Andrade,  4365092 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Salomao Ambrósio de Lima,  5065882 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Savio Souza Costa,  4296427 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Sueli Martins Freitas,  1983484 SSP-GO,  MONTAGEM DE TELHADOS
+
+Tatiane V Soares,  31962 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Thiago Candido da Silva,  4754062 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Valter Divino Borges Junior,  4859384 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Vanessa  Sayuri Hayashi,  437211 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Vilmar Luiz da Silva Junior,  4770885 SSP-GO,  MONTAGEM DE TELHADOS
+
+William Mizael Ferreira dos Santos,  2751843 SSP-GO,  MONTAGEM DE TELHADOS
+
+Wilson Silva Junior,  4554685 DGPC-GO,  MONTAGEM DE TELHADOS
+
+Davi Costa Melo,  5132257 DGPC-GO,  CALCULADORA HP PARA INICIANTES
+
+Leonardo Oliveira da Rocha,  4276247 DGPC-GO,  CALCULADORA HP PARA INICIANTES
+
+Thiago jaime de Pina,  4526176 DGPC-GO,  CALCULADORA HP PARA INICIANTES
+
+Fernando Melo Borges,  4613480 SSP-GO,  A CONFIRMAR
+
+Joaquim Orlando Parada,  4287642 SSP-GO,  A CONFIRMAR
+
+Bruno Cesar de Oliveira,  4944931 DGPC-GO,  TeCNICAS DE APRESENTAçaO DE TRABALHOS
+
+Joao Augusto Milhomem de Moura,  4522894 DGPC-GO,  TeCNICAS DE APRESENTAçaO DE TRABALHOS
+
+Marcus Vinicius Silva Cavalcanti,  1854671 SSP-DF,  TeCNICAS DE APRESENTAçaO DE TRABALHOS
+
+Raphael de Oliveira Pereira,  4278110 SSP-GO,  TeCNICAS DE APRESENTAçaO DE TRABALHOS
+
+Caio Rocha Aleixo,  4832480 DGPC-GO,  PLANILHA ELETRôNICA
+
+Diógenes Costa de Carvalho,  4793584 DGPC-GO,  PLANILHA ELETRôNICA
+
+Francisco Chaud Brasileiro de Faria,  4804872 DGPC-GO,  PLANILHA ELETRôNICA

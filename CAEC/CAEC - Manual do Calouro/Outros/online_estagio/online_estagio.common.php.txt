@@ -1,0 +1,113 @@
+<?php
+	/**
+	 *	online_estagio Component for Mambo 4.5
+ 	 *
+	 *	Copyright (C) 2004 Olle Johansson
+	 *	Distributed under the terms of the GNU General Public License
+	 *	This software may be used without warrany provided and
+	 *  copyright statements are left intact.
+	 *
+	 *	Site Name: Mambo 4.5
+	 *	File Name: online_estagio.common.php
+	 *	Developer: Olle Johansson - Olle@Johansson.com
+	 *	Date: 6 Aug 2004
+	 * 	Version #: 1.0
+	 *	Comments:
+	**/
+
+defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
+
+function getJobTypeString( $jobtype ) {
+	$ret = "";
+	switch ( $jobtype ) {
+		case '0': $ret = _JL_JOBTYPE_FULLTIME; break;
+		case '1': $ret = _JL_JOBTYPE_PARTTIME; break;
+		case '2': $ret = _JL_JOBTYPE_INTERNSHIP; break;
+	}
+	return $ret;
+}
+
+/**
+ * Send an email
+ * @param string email Email adress
+ * @param string subject Subject of the email
+ * @param string message The message body of the email
+ * @param string fromname Name of the sender of the email
+ * @param string fromemail Email address of the sender
+ * @param string replyto Email address in Reply-To header
+ */
+function sendEmail( $email, $subject, $message, $fromname='', $fromemail='', $replyto='') {
+	if ( function_exists( "mosMail" ) ) {
+		mosMail($fromemail, $fromname, $email, $subject, $message);
+	} else {
+		$headers = "";
+		if ( trim( $fromemail ) ) {
+			$headers = "From: $fromname <$fromemail>\r\n";
+		}
+		if ( trim( $replyto ) ) {
+			$headers .= "Reply-To: <$replyto>\r\n";
+		}
+		$headers .= "X-Priority: 3\r\n";
+		$headers .= "X-MSMail-Priority: Low\r\n";
+		$headers .= "X-Mailer: Mambo Open Source 4.5\r\n";
+		@mail($email, $subject, $message, $headers);
+	}
+}
+
+/**
+ * Show an error message.
+ *
+ * @param string The error message to show.
+ * @param string Heading for the error message.
+ */
+function showError( $error, $error_header = _JL_ERROR ) {
+	HTML_online_estagio::showError( $error, $error_header );
+}
+
+/**
+* Mambo function to log searches.
+*/
+function mosLogSearch( $search_term ) {
+	global $database;
+	global $mosConfig_enable_log_searches;
+	
+	if (@$mosConfig_enable_log_searches) {
+		$database->setQuery( "SELECT hits"
+		. "\nFROM #__core_log_searches"
+		. "\nWHERE LOWER(search_term)='$search_term'" );
+		$hits = intval( $database->loadResult() );
+		echo $database->getErrorMsg();
+		if ($hits) {
+			$database->setQuery( "UPDATE #__core_log_searches SET hits=(hits+1)"
+			. "\nWHERE LOWER(search_term)='$search_term'" );
+			$database->query();
+			echo $database->getErrorMsg();
+		} else {
+			$database->setQuery( "INSERT INTO #__core_log_searches VALUES"
+			. "\n('$search_term','1')" );
+			$database->query();
+			echo $database->getErrorMsg();
+		}
+	}
+}
+
+/**
+ * Return an ORDER BY value based on the given string
+ *
+ * @param string What kind of order by statement to use
+ */
+function getOrdering( $sort ) {
+	switch ( $sort ) {
+		case "titledesc": $ordering = "c.title DESC"; break;
+		case "titleasc": $ordering = "c.title ASC"; break;
+		case "orderingdesc": $ordering = "c.ordering DESC"; break;
+		case "orderingasc": $ordering = "c.ordering ASC"; break;
+		case "jobiddesc": $ordering = "c.id DESC"; break;
+		case "jobidasc": $ordering = "c.id ASC"; break;
+		case "createddesc": $ordering = "c.created DESC"; break;
+		case "createdasc": $ordering = "c.created ASC"; break;
+		default: $ordering = "c.id DESC";
+	}
+	return $ordering;
+}
+?>

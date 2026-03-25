@@ -1,0 +1,62 @@
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="contentpane">
+	  <tr>
+	    <td class="contentheading" width="100%" colspan="2">{mxtvalue=heading}<br /></td>
+	  </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+      <tr>
+        <td width="10%"><b>{mxtlang=_JL_DATEPOSTED}</b></td>
+		<td>{mxtvalue=created_formatted}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_JOBREFERENCE}</b></td>
+		<td>{mxtvalue=reference}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_JOBLOCATION}</b></td>
+		<td>{mxtvalue=location}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+{mxtshowif=attribs_Start Date}
+      <tr>
+        <td><b>{mxtlang=_JL_START_DATE}</b></td>
+		<td>{mxtvalue=attribs_Start Date}</td>
+      </tr>
+{/mxtshowif}
+      <tr>
+        <td><b>{mxtlang=_JL_JOBDURATION}</b></td>
+		<td>{mxtvalue=duration}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+      <tr>
+        <td><b>{mxtlang=_JL_DESCRIPTION}</b></td>
+		<td>{mxtvalue=description}</td>
+      </tr>
+      <tr>
+        <td colspan="2" height="5"></td>
+      </tr>
+{mxtshowif=showtype_view}
+      <tr> 
+        <td colspan="2" align="center"><br />
+		{mxtvalue=applybutton}
+		   </td>
+      </tr>
+      <tr>
+        <td colspan="2" height="10"></td>
+      </tr>
+      <tr> 
+        <td colspan="2" align="center"><a href="javascript:window.history.go(-1);">{mxtlang=_BACK}</a></td>
+      </tr>
+{/mxtshowif}
+	</table>

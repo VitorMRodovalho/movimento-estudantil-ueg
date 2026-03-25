@@ -1,0 +1,288 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+  <name>zoom</name>
+  <creationDate>15/07/2005</creationDate>
+  <author>Mike de Boer Bug corrector jose costa</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <authorEmail>mailme@mikedeboer.nl</authorEmail>
+  <authorUrl>zoom.ummagumma.nl</authorUrl>
+  <version>2.5 beta2b</version>
+  <description>zOOm Media Gallery Bugs corrigidos por jose.costa@gmail.com</description>
+  <files>
+    <filename>audiolist.xml</filename>
+    <filename>ecard.php</filename>
+    <filename>editimg.php</filename>
+    <filename>galleryshow.php</filename>
+    <filename>index.html</filename>
+    <filename>javascripts.js</filename>
+    <filename>lightbox.php</filename>
+    <filename>player.php</filename>
+    <filename>safemode.php</filename>
+    <filename>save_dnd.php</filename>
+    <filename>search.php</filename>
+    <filename>special.php</filename>
+    <filename>view.php</filename>
+    <filename>zoom.css</filename>
+    <filename>zoom.php</filename>
+    <filename>zoom_config.php</filename>
+    <filename>zoomplayer.swf</filename>
+    <filename>admin/admin.php</filename>
+    <filename>admin/catsmgr.php</filename>
+    <filename>admin/credits.php</filename>
+    <filename>admin/editcat.php</filename>
+    <filename>admin/index.html</filename>
+    <filename>admin/JUpload.jar</filename>
+    <filename>admin/mediamgr.php</filename>
+    <filename>admin/movefiles.php</filename>
+    <filename>admin/new.php</filename>
+    <filename>admin/settings.php</filename>
+    <filename>admin/update.php</filename>
+    <filename>admin/upl_dragndrop.php</filename>
+    <filename>admin/upl_multiple.php</filename>
+    <filename>admin/upl_scan.php</filename>
+    <filename>admin/upl_single.php</filename>
+    <filename>admin/upload.php</filename>
+    <filename>classes/comment.class.php</filename>
+    <filename>classes/ecard.class.php</filename>
+    <filename>classes/editmon.class.php</filename>
+    <filename>classes/fs_win32.php</filename>
+    <filename>classes/fs_unix.php</filename>
+    <filename>classes/gallery.class.php</filename>
+    <filename>classes/image.class.php</filename>
+    <filename>classes/index.html</filename>
+    <filename>classes/lightbox.class.php</filename>
+    <filename>classes/pdf.class.php</filename>
+    <filename>classes/toolbox.class.php</filename>
+    <filename>classes/update.class.php</filename>
+    <filename>classes/zoom.class.php</filename>
+    <filename>classes/iptc/EXIF.php</filename>
+    <filename>classes/iptc/EXIF_Makernote.php</filename>
+    <filename>classes/iptc/EXIF_Tags.php</filename>
+    <filename>classes/iptc/get_casio_thumb.php</filename>
+    <filename>classes/iptc/get_exif_thumb.php</filename>
+    <filename>classes/iptc/get_JFXX_thumb.php</filename>
+    <filename>classes/iptc/get_minolta_thumb.php</filename>
+    <filename>classes/iptc/get_ps_thumb.php</filename>
+    <filename>classes/iptc/IPTC.php</filename>
+    <filename>classes/iptc/JFIF.php</filename>
+    <filename>classes/iptc/JPEG.php</filename>
+    <filename>classes/iptc/Photoshop_File_Info.php</filename>
+    <filename>classes/iptc/Photoshop_IRB.php</filename>
+    <filename>classes/iptc/PictureInfo.php</filename>
+    <filename>classes/iptc/PIM.php</filename>
+    <filename>classes/iptc/Unicode.php</filename>
+    <filename>classes/iptc/XML.php</filename>
+    <filename>classes/iptc/XMP.php</filename>
+    <filename>classes/iptc/makernotes/agfa.php</filename>
+    <filename>classes/iptc/makernotes/canon.php</filename>
+    <filename>classes/iptc/makernotes/casio.php</filename>
+    <filename>classes/iptc/makernotes/epson.php</filename>
+    <filename>classes/iptc/makernotes/fujifilm.php</filename>
+    <filename>classes/iptc/makernotes/konica_minolta.php</filename>
+    <filename>classes/iptc/makernotes/kyocera.php</filename>
+    <filename>classes/iptc/makernotes/nikon.php</filename>
+    <filename>classes/iptc/makernotes/olympus.php</filename>
+    <filename>classes/iptc/makernotes/panasonic.php</filename>
+    <filename>classes/iptc/makernotes/Pentax.php</filename>
+    <filename>classes/iptc/makernotes/ricoh.php</filename>
+    <filename>classes/iptc/makernotes/sony.php</filename>
+    <filename>language/portuguese.php</filename>
+    <filename>language/english.php</filename>
+    <filename>language/0english.php</filename>
+    <filename>language/germani.php</filename>
+    <filename>language/germanf.php</filename>
+    <filename>language/dutch.php</filename>
+    <filename>tabs/index.html</filename>
+    <filename>tabs/tabpane.css</filename>
+    <filename>tabs/tabpane.js</filename>
+   </files>
+  <images>
+    <filename>images/attilas_id3logo.png</filename>
+    <filename>images/back.png</filename>
+    <filename>images/comment.gif</filename>
+    <filename>images/credits.gif</filename>
+    <filename>images/delete.png</filename>
+    <filename>images/ecard.png</filename>
+    <filename>images/ecard_back.png</filename>
+    <filename>images/ecard_big.png</filename>
+    <filename>images/ecard_turn.png</filename>
+    <filename>images/edit.png</filename>
+    <filename>images/find.png</filename>
+    <filename>images/first_img.png</filename>
+    <filename>images/folder.png</filename>
+    <filename>images/home.gif</filename>
+    <filename>images/last_img.png</filename>
+    <filename>images/lb_small.png</filename>
+    <filename>images/lb_view.png</filename>
+    <filename>images/lightbox.png</filename>
+    <filename>images/next.png</filename>
+    <filename>images/noimg.gif</filename>
+    <filename>images/play.png</filename>
+    <filename>images/prev.png</filename>
+    <filename>images/publish_g.png</filename>
+    <filename>images/publish_x.png</filename>
+    <filename>images/save.png</filename>
+    <filename>images/share_l.png</filename>
+    <filename>images/share_u.png</filename>
+    <filename>images/spacer.gif</filename>
+    <filename>images/stop.png</filename>
+    <filename>images/tooltip.png</filename>
+    <filename>images/warning.png</filename>
+    <filename>images/zoom_dragndrop.gif</filename>
+    <filename>images/zoom_logo.gif</filename>
+    <filename>images/zoom_logo_faded.gif</filename>
+    <filename>images/zoom_logo_small.gif</filename>
+    <filename>images/zoom_minus.png</filename>
+    <filename>images/zoom_plus.png</filename>
+    <filename>images/admin/catsmgr.png</filename>
+    <filename>images/admin/catsmgr_f2.png</filename>
+    <filename>images/admin/delete.png</filename>
+    <filename>images/admin/delete_f2.png</filename>
+    <filename>images/admin/edit.png</filename>
+    <filename>images/admin/edit_f2.png</filename>
+    <filename>images/admin/mediamgr.png</filename>
+    <filename>images/admin/mediamgr_f2.png</filename>
+    <filename>images/admin/move.png</filename>
+    <filename>images/admin/move_f2.png</filename>
+    <filename>images/admin/new.png</filename>
+    <filename>images/admin/new_f2.png</filename>
+    <filename>images/admin/settings.png</filename>
+    <filename>images/admin/settings_f2.png</filename>
+    <filename>images/admin/tables.png</filename>
+    <filename>images/admin/tables_f2.png</filename>
+    <filename>images/admin/update.png</filename>
+    <filename>images/admin/update_f2.png</filename>
+    <filename>images/admin/upload_f2.png</filename>
+    <filename>images/filetypes/audio.png</filename>
+    <filename>images/filetypes/document.png</filename>
+    <filename>images/filetypes/generic.png</filename>
+    <filename>images/filetypes/pdf.png</filename>
+    <filename>images/filetypes/video.png</filename>
+    <filename>images/rating/rating0.gif</filename>
+    <filename>images/rating/rating1.gif</filename>
+    <filename>images/rating/rating2.gif</filename>
+    <filename>images/rating/rating3.gif</filename>
+    <filename>images/rating/rating4.gif</filename>
+    <filename>images/rating/rating5.gif</filename>
+    <filename>images/smilies/icon_arrow.gif</filename>
+    <filename>images/smilies/icon_biggrin.gif</filename>
+    <filename>images/smilies/icon_confused.gif</filename>
+    <filename>images/smilies/icon_cool.gif</filename>
+    <filename>images/smilies/icon_cry.gif</filename>
+    <filename>images/smilies/icon_eek.gif</filename>
+    <filename>images/smilies/icon_evil.gif</filename>
+    <filename>images/smilies/icon_exclaim.gif</filename>
+    <filename>images/smilies/icon_frown.gif</filename>
+    <filename>images/smilies/icon_idea.gif</filename>
+    <filename>images/smilies/icon_lol.gif</filename>
+    <filename>images/smilies/icon_mad.gif</filename>
+    <filename>images/smilies/icon_mrgreen.gif</filename>
+    <filename>images/smilies/icon_neutral.gif</filename>
+    <filename>images/smilies/icon_question.gif</filename>
+    <filename>images/smilies/icon_razz.gif</filename>
+    <filename>images/smilies/icon_redface.gif</filename>
+    <filename>images/smilies/icon_rolleyes.gif</filename>
+    <filename>images/smilies/icon_sad.gif</filename>
+    <filename>images/smilies/icon_smile.gif</filename>
+    <filename>images/smilies/icon_surprised.gif</filename>
+    <filename>images/smilies/icon_twisted.gif</filename>
+    <filename>images/smilies/icon_wink.gif</filename>
+    <filename>tabs/tab.png</filename>
+    <filename>tabs/tab_active.png</filename>
+    <filename>tabs/tab_hover.png</filename>
+  </images>
+  <install>
+    <queries>
+      <query>DROP TABLE IF EXISTS #__zoom</query>
+      <query>
+      CREATE TABLE #__zoom (
+	  catid int(11) NOT NULL auto_increment,
+	  catname varchar(50) default '0',
+	  catdescr varchar(255) default NULL,
+	  catdir varchar(50) default '0',
+	  catimg int(11) default NULL,
+	  catpassword varchar(100) NOT NULL default '',
+	  catkeywords varchar(240) NOT NULL default '',
+	  subcat_id int(11) NOT NULL default '0',
+	  pos int(3) NOT NULL default '0',
+	  hideMsg tinyint(1) NOT NULL default '0',
+	  shared tinyint(1) NOT NULL default '0',
+	  published tinyint(1) NOT NULL default '1',
+	  uid int(11) NOT NULL default '0',
+	  catmembers varchar(240) NOT NULL default '',
+	  KEY id (catid)
+	) TYPE=MyISAM
+      </query>
+      <query>DROP TABLE IF EXISTS #__zoom_comments</query>
+      <query>
+      CREATE TABLE #__zoom_comments (
+	  cmtid int(11) NOT NULL auto_increment,
+	  imgid int(11) NOT NULL default '0',
+	  cmtname varchar(40) NOT NULL default '',
+	  cmtcontent text NOT NULL,
+	  cmtdate timestamp(14) NOT NULL,
+	  PRIMARY KEY  (cmtid),
+	  KEY imgid (imgid)
+	) TYPE=MyISAM
+      </query>
+      <query>
+      DROP TABLE IF EXISTS #__zoom_ecards</query>
+      <query>
+      CREATE TABLE #__zoom_ecards (
+	  ecdid varchar(25) NOT NULL default '',
+	  imgid int(11) NOT NULL default '0',
+	  to_name varchar(50) NOT NULL default '',
+	  from_name varchar(50) NOT NULL default '',
+	  to_email varchar(75) NOT NULL default '',
+	  from_email varchar(75) NOT NULL default '',
+	  message text NOT NULL,
+	  end_date date NOT NULL default '0000-00-00',
+	  user_ip varchar(25) NOT NULL default ''
+	) TYPE=MyISAM
+      </query>
+      <query>
+      DROP TABLE IF EXISTS #__zoom_editmon</query>
+      <query>
+      CREATE TABLE #__zoom_editmon (
+	  edtid int(11) NOT NULL auto_increment,
+	  user_session varchar(200) NOT NULL default '0',
+	  vote_time varchar(14) default NULL,
+	  comment_time varchar(14) default NULL,
+	  pass_time varchar(14) default NULL,
+	  lightbox_time varchar(14) default NULL,
+	  lightbox_file varchar(40) default NULL,
+	  object_id int(11) NOT NULL default '0',
+	  PRIMARY KEY  (edtid)
+	) TYPE=MyISAM
+      </query>
+      <query>DROP TABLE IF EXISTS #__zoomfiles</query>
+      <query>
+      CREATE TABLE #__zoomfiles (
+	  imgid int(11) NOT NULL auto_increment,
+	  imgname varchar(50) NOT NULL default '',
+	  imgfilename varchar(70) NOT NULL default '',
+	  imgdescr varchar(255) default NULL,
+	  imgkeywords varchar(255) default NULL,
+	  imgdate datetime NOT NULL default '0000-00-00 00:00:00',
+	  imghits bigint(20) NOT NULL default '0',
+	  votenum int(11) NOT NULL default '0',
+	  votesum int(11) NOT NULL default '0',
+	  published tinyint(1) NOT NULL default '1',
+	  catid int(11) NOT NULL default '0',
+	  uid int(11) NOT NULL default '0',
+	  imgmembers varchar(240) NOT NULL default '',
+	  PRIMARY KEY  (imgid),
+	  KEY catid (catid)
+	) TYPE=MyISAM
+      </query>
+    </queries>
+  </install>
+  <installfile>install.zoom.php</installfile>
+  <uninstallfile>uninstall.zoom.php</uninstallfile>
+<administration>
+	<menu>zOOm Media Gallery</menu>
+	<files>
+		<filename>admin.zoom.php</filename>
+	</files>
+</administration>
+</mosinstall>

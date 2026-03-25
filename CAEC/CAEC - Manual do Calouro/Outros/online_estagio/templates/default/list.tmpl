@@ -1,0 +1,40 @@
+<table width="100%" cellpadding="4" cellspacing="0" border="0" align="center" class="contentpane">
+  <tr>
+    <td><span class="contentheading">{mxtvalue=title}</span></td>
+  </tr>
+  <tr>
+    <td valign="top" class="contentdescription">
+      <p>{mxtvalue=description}
+	 {mxtshowif=searchlinkempty}</p><p>{mxtvalue=searchlinkempty}{/mxtshowif}
+	  {mxtshowif=postjoblink} - <a class='jl_functionlink' href='{mxtvalue=postjoblink}'>{mxtvalue=postjob}</a>{/mxtshowif}</p>
+	<p>{mxtvalue=searchlink}</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="right">{mxtlang=_PN_DISPLAY_NR}&nbsp;{mxtvalue=pagenavlimitbox}</td>
+  </tr>
+  <tr>
+    <td>
+	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="5%" class="sectiontableheader">{mxtvalue=heading_jobid}&nbsp;</td>
+          <td width="15%" class="sectiontableheader"><a href="{mxtvalue=sort_created}"></a></td>
+          <td width="50%" class="sectiontableheader"><a href="{mxtvalue=sort_jobtitle}">{mxtvalue=heading_jobtitle}</a></td>
+          <td width="30%" class="sectiontableheader"><a href="{mxtvalue=sort_company}">{mxtlang=_JL_COMPANY_NAME}</a></td>
+        </tr>
+{mxtvalue=itemlist}
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" class="sectiontableheader">{mxtvalue=pagenavpageslinks}</td>
+  </tr>
+  <tr>
+    <td align="right">{mxtvalue=pagenavpagescounter}</td>
+  </tr>
+  <tr>
+    <td valign="top" class="contentdescription">
+      {mxtvalue=searchlink}
+    </td>
+  </tr>
+</table>
